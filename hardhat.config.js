@@ -12,4 +12,7 @@ require("./tasks/nft");
 
 module.exports = {
   solidity: "0.8.17",
+  mocha: {
+    timeout: 100000000
+  },
 };
